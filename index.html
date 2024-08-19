@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script type="module" src="main.js" defer></script>
+		<title>Color OOP</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="box">
+				<h1 class="heading">
+					Ändra RGB- värden för att ändra bakgrundsfärg på mig!
+				</h1>
+				<form class="rbg-form">
+					<label for="r-input">
+						Ange ditt r-värde
+						<input
+							type="text"
+							id="r-input"
+							name="r-input"
+							class="colour-input"
+						/>
+					</label>
+					<label for="g-input">
+						Ange ditt g-värde
+						<input
+							type="text"
+							id="g-input"
+							name="g-input"
+							class="colour-input"
+						/>
+					</label>
+					<label for="b-input">
+						Ange ditt b-värde
+						<input
+							type="text"
+							id="b-input"
+							name="b-input"
+							class="colour-input"
+						/>
+					</label>
+					<button type="submit" class="submit-btn">Ändra bakgrundsfärg</button>
+				</form>
+				<h3 class="results">I andra koder:</h3>
+				<p class="rgba-result">RGBA:</p>
+				<p class="hex-result">HEX:</p>
+			</div>
+		</div>
+	</body>
+</html>
